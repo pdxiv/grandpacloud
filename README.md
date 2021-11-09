@@ -48,3 +48,4 @@ This document occasionally uses terms that appear in capital letters. When the t
 ### Integration
 
 * Service complexity SHOULD be avoided. Consider using statically compiled binaries when possible. Avoid the complexity of many dependencies and/or containers.
+* Used templating languages MUST be available in multiple programming languages. For example, if Go Templates are used, you can only integrate your templating with applications written in Go, preventing you from writing a Java application that utilizes the same template data.
