@@ -44,6 +44,7 @@ This document occasionally uses terms that appear in capital letters. When the t
 * Applications SHOULD rely on service discovery to find networked resources when possible.
 * Service discovery SHOULD be accomplished with DNS-SD (DNS Service Discovery).
 * Networked services MUST use client-side load balancing, except for communication with web browsers.
+* Network protocols MUST NOT rely on text parsing to work.
 
 ### Integration
 
