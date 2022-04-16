@@ -12,6 +12,7 @@ Possible benefits:
 * Higher uptime
 * Better utilization of system resources
 * Higher service speeds
+* Greater service reliability
 * Lower service latencies
 * Faster troubleshooting
 * Less training required (only basic operating system and networking concepts)
@@ -45,6 +46,7 @@ This document occasionally uses terms that appear in capital letters. When the t
 * Service discovery SHOULD be accomplished with DNS-SD (DNS Service Discovery).
 * Networked services MUST use client-side load balancing, except for communication with web browsers.
 * Network protocols MUST NOT rely on text parsing to work.
+* Application wire protocol (OSI Model Layer 7, "application layer") messages SHOULD strive to fit within the limitations of the network MTU, to decrease latency and increase reliability. A valid exception to this is bulk data transfers.
 
 ### Integration
 
